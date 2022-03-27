@@ -294,6 +294,10 @@ root@mdm9607-perf:~#
 
 thus, developers can develop/debug QuecOpen apps remotely.
 
+### How other module can connect to other TCP server
+
+By default, there is no limitation of port access to the device in `tailscale` network, thus other module can access to any port of other TCP server. Important is that, `tailscale` can find the shortest or direct link to other module, in case they are in same telco network - similar to the case where all devices are in same local network, but using the static `tailscale` IP address.
+
 ## FAQ
 
 1) How many devices can be supported in this solution
