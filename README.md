@@ -282,7 +282,7 @@ root@mdm9607-perf:~#
 
 By default, `adbd` service is already runnning at QuecOpen module with both serial and IP with port `55555`.
 
-```
+```console
 bacnh@mbp ~ % adb shell 100.80.159.15 55555
 
 mdm9607-perf login: root
